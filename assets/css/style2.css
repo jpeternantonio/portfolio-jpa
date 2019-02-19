@@ -2,7 +2,7 @@
   width: 90%;
   margin: 0 auto;
   max-width: 80rem;
-    margin-top: 84px;
+  margin-top: 15px;
 }
 
 .cols{
@@ -13,6 +13,7 @@
   justify-content: center;
     
 }
+
 
 .col1{
   width: calc(25% - 2rem);
@@ -32,7 +33,7 @@
   background-size: cover;
   background-position: center; 
   transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-     backface-visibility: hidden;
+  backface-visibility: hidden;
   text-align: center;
   min-height: 280px;
   height: auto; 
@@ -42,7 +43,7 @@
 
 .back{
   background: #fff;  
-  background: linear-gradient(45deg,  #fd0d44 0%,#1463e2 100%);
+  background: url(../images/Portrait.jpg);
 }
 
 .front:after{
